@@ -1,0 +1,187 @@
+body{
+    margin: 0;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+nav{
+    background: black;
+    padding: 2rem;
+    /* padding-left: 400px; */
+    text-align: center;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    gap: 100px;
+}
+.name{
+    text-align: center;
+
+}
+.me h1{
+    color: white; 
+
+}
+
+.new {
+    /* 1. Делаем блоком-контейнером */
+    display: inline-flex; 
+    
+    /* 2. Центрируем текст строго посередине */
+    
+    justify-content: center;
+    
+    /* 3. Фиксируем размеры (сделай их больше, чтобы текст влез) */
+    width: 80px;
+    height: 50px;
+    
+    /* 4. Оформление */
+    border: 1px solid white;
+    background: transparent;
+    color: white ;
+    text-decoration: none;
+    
+    /* 5. Настройки текста */
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.2; /* Чтобы строки текста были ближе друг к другу */
+    padding: 10px;
+    
+    /* 6. Чтобы padding не увеличивал размер квадрата */
+    box-sizing: border-box;
+    
+    /* Отступ между кнопками */
+    margin: 10px;
+}
+
+/* Эффект при наведении (опционально) */
+a:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+.button{
+ /* 1. Делаем блоком-контейнером */
+ display: inline-flex; 
+    
+ /* 2. Центрируем текст строго посередине */
+ /* align-items: center; */
+ justify-content: center;
+ 
+ /* 3. Фиксируем размеры (сделай их больше, чтобы текст влез) */
+ width: 80px;
+ height: 50px;
+ 
+ /* 4. Оформление */
+ border: 1px solid white;
+ background: transparent;
+ color: white;
+ text-decoration: none;
+ 
+ /* 5. Настройки текста */
+ text-align: center;
+ font-size: 14px;
+ line-height: 1.2; /* Чтобы строки текста были ближе друг к другу */
+ padding: 10px;
+ 
+ /* 6. Чтобы padding не увеличивал размер квадрата */
+ box-sizing: border-box;
+ 
+ /* Отступ между кнопками */
+ margin: 10px;
+    
+}
+.text{
+    
+    margin-top: 10px;
+    text-align: center;
+
+}
+.user{
+    
+    margin-top: 10px;
+    text-align: center;
+}
+.Picture1{
+    color: black;
+    margin-top: 10px;
+   
+    
+ display: flexbox;    
+}
+.Picture2{
+    color: black;
+    margin-top: 10px;
+    display: flexbox;    
+}
+.dark-mode {
+    background-color: #333;
+    color: white;
+}
+.dark-mode .Picture1, 
+.dark-mode .Picture2 {
+    color: white;
+}
+
+
+.Picture{
+    
+    display: inline-flex; 
+    justify-content: center;
+    width: 80px;
+    height: 50px;
+    border: 1px solid black;
+    background: transparent;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.2;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+.block {
+    background-image: url('image.jpg');
+    background-size: cover; /* Изображение растягивается на весь блок */
+    background-position: center; /* Центрирование */
+    background-repeat: no-repeat; /* Запрет повторения */
+    width: 100%;
+    height: 400px;
+}
+
+.ToDoDo{
+    size: 16px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+
+.site{
+    size: 16px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+/*в самый конец файла */
+.dark-mode .Picture {
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    vertical-align: 20px;
+    
+}
+
